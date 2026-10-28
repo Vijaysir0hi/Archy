@@ -1,0 +1,9 @@
+lets dig into this https://github.com/hslee16/Archy/issues/418. Do we need to expand and create more tickets or are there concrete implementations we can do given the current state of archy? does it make sense to?
+
+---
+
+ok, lets o it
+
+---
+
+close the ticket after if it makes sense to and there are no other actions we can take

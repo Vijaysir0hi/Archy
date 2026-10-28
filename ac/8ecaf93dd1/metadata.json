@@ -1,0 +1,27 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "ac8ecaf93dd1",
+  "strategy": "manual-commit",
+  "branch": "alee/418-retrievability-coverage",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "bench/retrievability_draw.py",
+    "bench/retrievability_prereg.md",
+    "bench/retrievability_results.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/ac/8ecaf93dd1/0/metadata.json",
+      "transcript": "/ac/8ecaf93dd1/0/full.jsonl",
+      "content_hash": "/ac/8ecaf93dd1/0/content_hash.txt",
+      "prompt": "/ac/8ecaf93dd1/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 38,
+    "cache_creation_tokens": 60046,
+    "cache_read_tokens": 1150333,
+    "output_tokens": 14061,
+    "api_call_count": 17
+  }
+}
