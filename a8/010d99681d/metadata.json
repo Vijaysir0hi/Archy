@@ -1,0 +1,23 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "a8010d99681d",
+  "strategy": "manual-commit",
+  "branch": "alee/427-archy-brief-mcp",
+  "checkpoints_count": 3,
+  "files_touched": null,
+  "sessions": [
+    {
+      "metadata": "/a8/010d99681d/0/metadata.json",
+      "transcript": "/a8/010d99681d/0/full.jsonl",
+      "content_hash": "/a8/010d99681d/0/content_hash.txt",
+      "prompt": "/a8/010d99681d/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 184,
+    "cache_creation_tokens": 184703,
+    "cache_read_tokens": 9953206,
+    "output_tokens": 55154,
+    "api_call_count": 77
+  }
+}
