@@ -1,0 +1,65 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "38a13cc2e655",
+  "session_id": "eb9e63d1-8aa3-4233-8250-1c128f97619a",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-28T19:20:09.828887Z",
+  "branch": "alee/427-archy-brief-mcp",
+  "checkpoints_count": 2,
+  "files_touched": [
+    "docs/MCP_DIRECTORIES.md",
+    "docs/SHIPPED.md",
+    "plugins/claude/skills/archy/SKILL.md",
+    "skills/archy/SKILL.md",
+    "src/archy/cli.py",
+    "src/archy/install/base.py",
+    "src/archy/layers.py",
+    "src/archy/mcp.py",
+    "tests/install/snapshot/__snapshots__/test_snapshots.ambr",
+    "tests/test_mcp.py",
+    "tests/test_mcp_protocol.py"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5-5",
+  "turn_id": "a6e9fa779d58",
+  "checkpoint_transcript_start": 198,
+  "transcript_lines_at_start": 198,
+  "token_usage": {
+    "input_tokens": 56,
+    "cache_creation_tokens": 51616,
+    "cache_read_tokens": 2809056,
+    "output_tokens": 18483,
+    "api_call_count": 25
+  },
+  "session_metrics": {
+    "turn_count": 3
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-28T19:20:09.802619Z",
+    "agent_lines": 301,
+    "agent_removed": 27,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 301,
+    "total_lines_changed": 328,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 674,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "reports/LLM code and software architecture.md": 92,
+        "research_notes/LLM code and software architecture/agent_context_evidence.md": 120,
+        "research_notes/LLM code and software architecture/empirical_studies.md": 173,
+        "research_notes/LLM code and software architecture/practitioner_trends.md": 159,
+        "research_notes/LLM code and software architecture/tools_landscape.md": 130
+      }
+    }
+  ]
+}

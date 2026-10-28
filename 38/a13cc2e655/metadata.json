@@ -1,0 +1,35 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "38a13cc2e655",
+  "strategy": "manual-commit",
+  "branch": "alee/427-archy-brief-mcp",
+  "checkpoints_count": 2,
+  "files_touched": [
+    "docs/MCP_DIRECTORIES.md",
+    "docs/SHIPPED.md",
+    "plugins/claude/skills/archy/SKILL.md",
+    "skills/archy/SKILL.md",
+    "src/archy/cli.py",
+    "src/archy/install/base.py",
+    "src/archy/layers.py",
+    "src/archy/mcp.py",
+    "tests/install/snapshot/__snapshots__/test_snapshots.ambr",
+    "tests/test_mcp.py",
+    "tests/test_mcp_protocol.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/38/a13cc2e655/0/metadata.json",
+      "transcript": "/38/a13cc2e655/0/full.jsonl",
+      "content_hash": "/38/a13cc2e655/0/content_hash.txt",
+      "prompt": "/38/a13cc2e655/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 56,
+    "cache_creation_tokens": 51616,
+    "cache_read_tokens": 2809056,
+    "output_tokens": 18483,
+    "api_call_count": 25
+  }
+}
