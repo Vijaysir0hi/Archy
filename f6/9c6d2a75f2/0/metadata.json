@@ -1,0 +1,69 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "f69c6d2a75f2",
+  "session_id": "eb9e63d1-8aa3-4233-8250-1c128f97619a",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-28T19:37:24.327743Z",
+  "branch": "alee/restore-readme-594",
+  "checkpoints_count": 2,
+  "save_step_count": 1,
+  "files_touched": [],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5-5",
+  "turn_id": "7ed0363dc22a",
+  "token_usage": {
+    "input_tokens": 222,
+    "cache_creation_tokens": 201240,
+    "cache_read_tokens": 13683314,
+    "output_tokens": 61963,
+    "api_call_count": 94
+  },
+  "skill_events_version": 1,
+  "skill_events": [
+    {
+      "id": "prompt-skill-claude-code-deepwork:review-2026-10-28T19:24:58.761255Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "deepwork:review"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "45b2232b4f93",
+      "timestamp": "2026-10-28T19:24:58.761255Z",
+      "native": {
+        "command": "/deepwork:review"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/deepwork:review",
+        "default_collapsed": true
+      }
+    }
+  ],
+  "session_metrics": {
+    "turn_count": 14
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 1388,
+      "user_lines_removed": 6,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "README.md": 714,
+        "reports/LLM code and software architecture.md": 92,
+        "research_notes/LLM code and software architecture/agent_context_evidence.md": 120,
+        "research_notes/LLM code and software architecture/empirical_studies.md": 173,
+        "research_notes/LLM code and software architecture/practitioner_trends.md": 159,
+        "research_notes/LLM code and software architecture/tools_landscape.md": 130
+      },
+      "user_removed_per_file": {
+        "README.md": 6
+      }
+    }
+  ]
+}
