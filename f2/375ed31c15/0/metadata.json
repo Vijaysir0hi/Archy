@@ -1,0 +1,76 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "f2375ed31c15",
+  "session_id": "eb9e63d1-8aa3-4233-8250-1c128f97619a",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-28T19:30:14.946186Z",
+  "branch": "alee/427-archy-brief-mcp",
+  "checkpoints_count": 6,
+  "files_touched": [],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5-5",
+  "turn_id": "95073b6bbb9c",
+  "checkpoint_transcript_start": 392,
+  "transcript_lines_at_start": 392,
+  "token_usage": {
+    "input_tokens": 60,
+    "cache_creation_tokens": 55338,
+    "cache_read_tokens": 3806021,
+    "output_tokens": 16191,
+    "api_call_count": 23
+  },
+  "skill_events_version": 1,
+  "skill_events": [
+    {
+      "id": "prompt-skill-claude-code-deepwork:review-2026-10-28T19:24:58.761255Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "deepwork:review"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "45b2232b4f93",
+      "timestamp": "2026-10-28T19:24:58.761255Z",
+      "native": {
+        "command": "/deepwork:review"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/deepwork:review",
+        "default_collapsed": true
+      }
+    }
+  ],
+  "session_metrics": {
+    "turn_count": 9
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 680,
+      "user_lines_removed": 5,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".claude-plugin/marketplace.json": 1,
+        "docs/INSTALL.md": 1,
+        "plugins/claude/.claude-plugin/plugin.json": 1,
+        "reports/LLM code and software architecture.md": 92,
+        "research_notes/LLM code and software architecture/agent_context_evidence.md": 120,
+        "research_notes/LLM code and software architecture/empirical_studies.md": 173,
+        "research_notes/LLM code and software architecture/practitioner_trends.md": 159,
+        "research_notes/LLM code and software architecture/tools_landscape.md": 130,
+        "src/archy/mcp.py": 3
+      },
+      "user_removed_per_file": {
+        ".claude-plugin/marketplace.json": 1,
+        "docs/INSTALL.md": 1,
+        "plugins/claude/.claude-plugin/plugin.json": 1,
+        "src/archy/mcp.py": 2
+      }
+    }
+  ]
+}
