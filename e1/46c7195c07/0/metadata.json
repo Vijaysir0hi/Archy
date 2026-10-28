@@ -1,0 +1,79 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "e146c7195c07",
+  "session_id": "eb9e63d1-8aa3-4233-8250-1c128f97619a",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-28T21:59:57.487966Z",
+  "branch": "alee/604-dogfood-score-delta",
+  "checkpoints_count": 2,
+  "save_step_count": 1,
+  "files_touched": [
+    "tests/test_action_yml.py"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5-5",
+  "turn_id": "e5a2a693da40",
+  "token_usage": {
+    "input_tokens": 536,
+    "cache_creation_tokens": 400175,
+    "cache_read_tokens": 58483471,
+    "output_tokens": 181353,
+    "api_call_count": 230
+  },
+  "skill_events_version": 1,
+  "skill_events": [
+    {
+      "id": "prompt-skill-claude-code-deepwork:review-2026-10-28T19:24:58.761255Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "deepwork:review"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "45b2232b4f93",
+      "timestamp": "2026-10-28T19:24:58.761255Z",
+      "native": {
+        "command": "/deepwork:review"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/deepwork:review",
+        "default_collapsed": true
+      }
+    }
+  ],
+  "session_metrics": {
+    "turn_count": 31
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-28T21:59:57.29164Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 901,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 901,
+    "total_lines_changed": 906,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 674,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        "reports/LLM code and software architecture.md": 92,
+        "research_notes/LLM code and software architecture/agent_context_evidence.md": 120,
+        "research_notes/LLM code and software architecture/empirical_studies.md": 173,
+        "research_notes/LLM code and software architecture/practitioner_trends.md": 159,
+        "research_notes/LLM code and software architecture/tools_landscape.md": 130
+      }
+    }
+  ]
+}
