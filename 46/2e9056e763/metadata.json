@@ -1,0 +1,26 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "462e9056e763",
+  "strategy": "manual-commit",
+  "branch": "alee/605-ci-score-history",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "scripts/archy_history.py",
+    "tests/test_archy_history.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/46/2e9056e763/0/metadata.json",
+      "transcript": "/46/2e9056e763/0/full.jsonl",
+      "content_hash": "/46/2e9056e763/0/content_hash.txt",
+      "prompt": "/46/2e9056e763/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 428,
+    "cache_creation_tokens": 344341,
+    "cache_read_tokens": 39685364,
+    "output_tokens": 148687,
+    "api_call_count": 183
+  }
+}
